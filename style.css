@@ -1,0 +1,85 @@
+
+.navbar {
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	overflow: hidden;
+	/*margin: 0;*/
+	margin-bottom: 30px;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: rgb(38,38,38);
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+}
+ li a:hover {
+ 	background-color: #111;
+ }
+
+ a {
+ 	color: rgb(217,217,217);
+ }
+
+ .main {
+ 	margin-top: 150px;
+ 	text-align: center;
+ 	width:800px; 
+ 	margin-left:auto;
+ 	margin-right:auto;
+ }
+
+ #beskrivelse {
+ 	font-size: 35px;
+ }
+
+ #pmsys {
+ 	font-size: 150px;
+ }
+
+ #dato {
+ 	font-size: 25px;
+ }
+
+#meg {
+	margin-top: 300px;
+	background-color: rgb(38,38,38);
+	border-radius:40px;
+	padding-top: 30px;
+	width:300px;
+}
+
+#navn {
+	font-size: 20px;
+}
+
+#linje {
+	font-size: 15px;
+}
+
+#doku {
+	font-size: 25px;
+	margin-top: 200px;
+}
+
+#status {
+	padding:50px;
+}
+
+.ikon {
+	
+}
