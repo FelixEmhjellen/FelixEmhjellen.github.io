@@ -72,14 +72,31 @@ li a {
 }
 
 #doku {
-	font-size: 25px;
 	margin-top: 200px;
 }
 
 #status {
 	padding:50px;
+	font-size:40px;
+}
+
+#skisse {
+	font-size:40px;
+	margin-left:100px;
+
 }
 
 .ikon {
-	
+	width:150px;
+	height:180px;
+	padding-top:25px;
+
+}
+
+#statusrapport {
+	margin-left:100px;
+}
+
+#prosjektskisse {
+	margin-left:250px;
 }
