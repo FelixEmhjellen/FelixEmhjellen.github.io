@@ -35,6 +35,7 @@ li a {
  	color: rgb(217,217,217);
  }
 
+
  .main {
  	margin-top: 150px;
  	text-align: center;
@@ -55,21 +56,33 @@ li a {
  	font-size: 25px;
  }
 
-#meg {
-	margin-top: 300px;
-	background-color: rgb(38,38,38);
-	border-radius:40px;
-	padding-top: 30px;
-	width:300px;
+.profil {
+	float: left;
+	width:30%;
+	padding:0 10px;
 }
 
-#navn {
-	font-size: 20px;
+.row {
+	margin:0 -5px;
+	margin-top: 200px;
 }
 
-#linje {
-	font-size: 15px;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  margin-right:40px;
+  background-color: rgb(38,38,38);
+  font-size: 20px;
+  border-radius: 50px;
+}
+
 
 #doku {
 	margin-top: 200px;
@@ -77,11 +90,11 @@ li a {
 
 #status {
 	padding:50px;
-	font-size:40px;
+	font-size:50px;
 }
 
 #skisse {
-	font-size:40px;
+	font-size:50px;
 	margin-left:100px;
 
 }
@@ -107,5 +120,5 @@ li a {
 }
 
 body {
-	/*margin:0;*/
+	
 }
