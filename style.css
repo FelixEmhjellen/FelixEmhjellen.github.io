@@ -63,8 +63,9 @@ li a {
 }
 
 .row {
-	margin:0 -5px;
+	margin:0 5px;
 	margin-top: 200px;
+	margin-left: 450px;
 }
 
 .row:after {
@@ -75,12 +76,12 @@ li a {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding-top: 15px;
   text-align: center;
   margin-right:40px;
   background-color: rgb(38,38,38);
   font-size: 20px;
-  border-radius: 50px;
+  border-radius: 25px;
 }
  .pfbilde {
  	object-fit: cover;
@@ -90,15 +91,28 @@ li a {
 	margin-top: 200px;
 }
 
+#doku2 {
+	margin-top: 20px;
+}
 #status {
 	padding:50px;
-	font-size:50px;
+	font-size:35px;
 }
 
 #skisse {
-	font-size:50px;
+	font-size:35px;
 	margin-left:100px;
 
+}
+
+#forprosjekt {
+	padding:50px;
+	font-size:35px;
+}
+
+#slutt {
+	font-size: 35px;
+	margin-left:100px;
 }
 
 .ikon {
@@ -118,6 +132,14 @@ li a {
 }
 
 #prosjektskisse {
+	margin-left:250px;
+}
+
+#forprosjektrapport {
+	margin-left:100px;
+}
+
+#sluttrapport {
 	margin-left:250px;
 }
 
